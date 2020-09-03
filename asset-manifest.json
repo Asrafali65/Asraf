@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Asraf/static/css/main.4ff01ac0.chunk.css",
-    "main.js": "/Asraf/static/js/main.113ee130.chunk.js",
-    "main.js.map": "/Asraf/static/js/main.113ee130.chunk.js.map",
+    "main.js": "/Asraf/static/js/main.6d7a761f.chunk.js",
+    "main.js.map": "/Asraf/static/js/main.6d7a761f.chunk.js.map",
     "runtime-main.js": "/Asraf/static/js/runtime-main.6ffb51b3.js",
     "runtime-main.js.map": "/Asraf/static/js/runtime-main.6ffb51b3.js.map",
-    "static/js/2.ec1138de.chunk.js": "/Asraf/static/js/2.ec1138de.chunk.js",
-    "static/js/2.ec1138de.chunk.js.map": "/Asraf/static/js/2.ec1138de.chunk.js.map",
+    "static/js/2.74348b71.chunk.js": "/Asraf/static/js/2.74348b71.chunk.js",
+    "static/js/2.74348b71.chunk.js.map": "/Asraf/static/js/2.74348b71.chunk.js.map",
     "index.html": "/Asraf/index.html",
-    "precache-manifest.590cd9489577efb19bc8faadae4386d8.js": "/Asraf/precache-manifest.590cd9489577efb19bc8faadae4386d8.js",
+    "precache-manifest.ec148df548a11800729eca884c59c871.js": "/Asraf/precache-manifest.ec148df548a11800729eca884c59c871.js",
     "service-worker.js": "/Asraf/service-worker.js",
     "static/css/main.4ff01ac0.chunk.css.map": "/Asraf/static/css/main.4ff01ac0.chunk.css.map",
-    "static/js/2.ec1138de.chunk.js.LICENSE.txt": "/Asraf/static/js/2.ec1138de.chunk.js.LICENSE.txt",
+    "static/js/2.74348b71.chunk.js.LICENSE.txt": "/Asraf/static/js/2.74348b71.chunk.js.LICENSE.txt",
     "static/media/covid.png": "/Asraf/static/media/covid.7dabe10b.png",
     "static/media/main_picture.jpg": "/Asraf/static/media/main_picture.71835326.jpg",
     "static/media/samsung.jpg": "/Asraf/static/media/samsung.1a04a07f.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6ffb51b3.js",
-    "static/js/2.ec1138de.chunk.js",
+    "static/js/2.74348b71.chunk.js",
     "static/css/main.4ff01ac0.chunk.css",
-    "static/js/main.113ee130.chunk.js"
+    "static/js/main.6d7a761f.chunk.js"
   ]
 }

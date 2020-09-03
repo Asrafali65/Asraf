@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05ca5cd1fdd1b382686494f7d65c9f23",
+    "revision": "e7cd9ad0a8f6b7ef64ed903d4a3890fb",
     "url": "/Asraf/index.html"
   },
   {
-    "revision": "718eb6ee69ee9f8fea4b",
+    "revision": "22688ed441024a5573c9",
     "url": "/Asraf/static/css/main.4ff01ac0.chunk.css"
   },
   {
-    "revision": "359cd90f5f4e0b3901a3",
-    "url": "/Asraf/static/js/2.ec1138de.chunk.js"
+    "revision": "b67d68050ec42a1a6ca6",
+    "url": "/Asraf/static/js/2.74348b71.chunk.js"
   },
   {
     "revision": "5730d1823f6b27077c677030967812c2",
-    "url": "/Asraf/static/js/2.ec1138de.chunk.js.LICENSE.txt"
+    "url": "/Asraf/static/js/2.74348b71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "718eb6ee69ee9f8fea4b",
-    "url": "/Asraf/static/js/main.113ee130.chunk.js"
+    "revision": "22688ed441024a5573c9",
+    "url": "/Asraf/static/js/main.6d7a761f.chunk.js"
   },
   {
     "revision": "1a0e5bfa6bfc645f7b9f",
