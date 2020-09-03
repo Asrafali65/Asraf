@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Asraf/static/css/main.4ff01ac0.chunk.css",
+    "main.js": "/Asraf/static/js/main.113ee130.chunk.js",
+    "main.js.map": "/Asraf/static/js/main.113ee130.chunk.js.map",
+    "runtime-main.js": "/Asraf/static/js/runtime-main.6ffb51b3.js",
+    "runtime-main.js.map": "/Asraf/static/js/runtime-main.6ffb51b3.js.map",
+    "static/js/2.ec1138de.chunk.js": "/Asraf/static/js/2.ec1138de.chunk.js",
+    "static/js/2.ec1138de.chunk.js.map": "/Asraf/static/js/2.ec1138de.chunk.js.map",
+    "index.html": "/Asraf/index.html",
+    "precache-manifest.590cd9489577efb19bc8faadae4386d8.js": "/Asraf/precache-manifest.590cd9489577efb19bc8faadae4386d8.js",
+    "service-worker.js": "/Asraf/service-worker.js",
+    "static/css/main.4ff01ac0.chunk.css.map": "/Asraf/static/css/main.4ff01ac0.chunk.css.map",
+    "static/js/2.ec1138de.chunk.js.LICENSE.txt": "/Asraf/static/js/2.ec1138de.chunk.js.LICENSE.txt",
+    "static/media/covid.png": "/Asraf/static/media/covid.7dabe10b.png",
+    "static/media/main_picture.jpg": "/Asraf/static/media/main_picture.71835326.jpg",
+    "static/media/samsung.jpg": "/Asraf/static/media/samsung.1a04a07f.jpg",
+    "static/media/shoppingcart.jpg": "/Asraf/static/media/shoppingcart.85138c12.jpg",
+    "static/media/spotify.jpg": "/Asraf/static/media/spotify.fe3fd639.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ffb51b3.js",
+    "static/js/2.ec1138de.chunk.js",
+    "static/css/main.4ff01ac0.chunk.css",
+    "static/js/main.113ee130.chunk.js"
+  ]
+}
