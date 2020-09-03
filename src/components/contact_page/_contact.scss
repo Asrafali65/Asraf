@@ -1,0 +1,84 @@
+.contactpage {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+
+  &__heading {
+    grid-column: 1 / span 3;
+
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+
+      sup,
+      sub {
+        color: $gray;
+        font-family: $courgette;
+        font-size: 1rem;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  &__image-wrapper {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 350px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: $black;
+      width: 0%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+
+  &__links {
+    &__mail {
+      margin: 0 10px;
+      padding: 15px 30px;
+      background: $blackshade;
+      color: $lightsand;
+      transition: color 0.5s ease-in-out;
+
+      &:hover {
+        color: $white;
+      }
+    }
+    h1 {
+      margin: 0 0 0 10px;
+    }
+    p {
+      margin: 0 0 50px 10px;
+      width: 400px;
+      color: $lightsand;
+    }
+    ul {
+      display: flex;
+      margin: 50px 0;
+      overflow: hidden;
+
+      li {
+        margin: 0 10px;
+        a {
+          color: $lightsand;
+          transition: 0.5s ease-in-out;
+
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.projectpage {
+  display: grid;
+
+  &__heading {
+    padding: 30px 0;
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      sup,
+      sub {
+        color: $gray;
+        font-family: $courgette;
+        font-size: 1rem;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  //   -------------
+  &__lists {
+    margin: 40px auto;
+    width: 80%;
+
+    &__list {
+      color: $lightsand;
+
+      &__wrapper {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background: $blackshade;
+        border-bottom: 1px solid #333333;
+        overflow: hidden;
+
+        &__linewrapper {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            object-position: 50% 50%;
+            transition: 0.3s ease-in-out;
+            opacity: 0.1;
+          }
+          &:hover > img {
+            transform: scale(1.1);
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 50%;
+            background: $blackshade;
+            transition: 0.2s ease-in-out;
+            z-index: 1;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50%;
+            background: $blackshade;
+            transition: 0.2s ease-in-out;
+            z-index: 1;
+          }
+
+          &:hover::before {
+            height: 0;
+          }
+
+          &:hover::after {
+            height: 0;
+          }
+
+          h1 {
+            font-weight: 400;
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+}

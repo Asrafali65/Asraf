@@ -1,0 +1,62 @@
+.homepage {
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 0;
+
+  &__header {
+    grid-column: 1 / span 3;
+
+    &__logo {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  //   description --------------
+  &__description {
+    margin: 0 0 0 0;
+    &__linewrapper {
+      &__text {
+        p {
+          width: 440px;
+        }
+      }
+    }
+  }
+
+  //   menu --------------
+  &__menu {
+    margin: 0 0 0 0;
+  }
+}
+
+// --------------------------------- projects
+
+.projectpage {
+  // heading
+
+  //   -------------
+  &__lists {
+    &__list {
+      &__wrapper {
+        &__linewrapper {
+          h1 {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// contact page
+
+.contactpage {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+
+  &__heading {
+    grid-column: 1 / span 3;
+  }
+}

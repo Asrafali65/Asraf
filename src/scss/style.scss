@@ -1,0 +1,27 @@
+// config
+
+@import "./config";
+
+// homepage
+
+@import "../components/home_page/home";
+
+// aboutpage
+
+@import "../components/about_page/aboutpage";
+
+// projectpage
+
+@import "../components/project_page/project";
+
+// contactpage
+
+@import "../components/contact_page/contact";
+
+// responsive
+
+@import "./responsive";
+
+// not found
+
+@import "../components/notfound_page/notfound";

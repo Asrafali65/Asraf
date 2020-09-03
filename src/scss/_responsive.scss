@@ -1,0 +1,19 @@
+@include mobile {
+  // mobile
+  @import "./responsive/mobile";
+}
+
+@include tablets {
+  // tablets
+  @import "./responsive/tablets";
+}
+
+@include landscape {
+  // landscape
+  @import "./responsive/landscape";
+}
+
+@include laptops {
+  // laptops
+  @import "./responsive/laptop";
+}

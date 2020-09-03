@@ -1,0 +1,106 @@
+.homepage {
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  padding: 0 20px;
+
+  &__header {
+    grid-column: 1 / span 1;
+
+    &__logo {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  //   description --------------
+  &__description {
+    margin: 50px 0 0 0;
+    &__linewrapper {
+      &__text {
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  //   menu --------------
+  &__menu {
+    margin: 0 0 50px 0;
+  }
+}
+
+// -----------------------------------------
+
+.aboutpage {
+  // heading
+
+  //   ----------------------------
+
+  //  intro
+
+  &__work__wrapper {
+    grid-template-columns: 1fr;
+
+    &__languages {
+      &__outer {
+        &__inner {
+          h1 {
+            font-size: 1rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+// --------------------------------- projects
+
+.projectpage {
+  // heading
+
+  //   -------------
+  &__lists {
+    width: 90%;
+    &__list {
+      &__wrapper {
+        &__linewrapper {
+          h1 {
+            font-size: 1.2rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contactpage {
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+
+  &__heading {
+    grid-column: 1 / span 1;
+  }
+
+  &__image-wrapper {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  &__links {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+}

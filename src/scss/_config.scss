@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+// basic reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// variables
+
+$poppins: "Poppins", sans-serif;
+$redressed: "Redressed", cursive;
+$courgette: "Courgette", cursive;
+
+// colors
+
+$black: #000000;
+$white: #ffffff;
+$lightsand: #b9aa87;
+$gray: #7e7e7e;
+$blackshade: #181818;
+
+body {
+  font-family: $poppins;
+  background: $black;
+  color: $white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@mixin mobile {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@mixin tablets {
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@mixin landscape {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@mixin laptops {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@mixin desktops {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
